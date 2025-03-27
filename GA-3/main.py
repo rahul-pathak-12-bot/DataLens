@@ -156,7 +156,6 @@ print(f"Average parts/hour: {parts_per_hour}")
 
 # Question 10: The company uses MAPE (Mean Absolute Percentage Error) to measure process variability in the manufacturing process. 
 # Which shift sees the maximum process variability during the fortnight? E.g. Shift 1 (STRING)`
-
 def get_mape(shift_series, rated_output_shift):
     shfit_series_new = shift_series[shift_series != 0]
     n = shfit_series_new.shape[0]
@@ -165,7 +164,6 @@ def get_mape(shift_series, rated_output_shift):
 
     mape = (1 / n) * abs_value * 100
     return mape
-
 mape = dict()
 for col in actual_output.columns.to_list()[1:]:
     mape[get_mape(actual_output[col], rated_output_per_shift)] = col

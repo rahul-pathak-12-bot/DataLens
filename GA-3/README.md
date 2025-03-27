@@ -1,5 +1,5 @@
 #Dataset Overview
-The dataset, dataset_3_467.xlsx, contains information about gear assemblies across multiple categories and fiscal years. It includes five main sheets:
+The dataset, contains information about gear assemblies across multiple categories and fiscal years. It includes five main sheets:
 
 Data: Historical production and sales data for gear assemblies.
 
