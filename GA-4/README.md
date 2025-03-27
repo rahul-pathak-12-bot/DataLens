@@ -1,35 +1,35 @@
-Dataset Overview
-The dataset, contains information about employees, including their experience, appraisal history, skills, key projects, and availability. It includes the following columns:
+# Dataset Documentation
 
-1-Employee name
-2-Year of experience
-3-Appraisal 1, Appraisal 2, Appraisal 3
-4-Skills
-5-Key projects
-6-Duration in the current role
-7-Bench duration
-8-When the candidate will be available
+## Overview
+This repository contains an employee performance dataset stored in an Excel file named `dataset_4_24.xlsx`. It includes details about employees' experience, appraisals, skills, project involvement, and availability for new roles.
 
-This dataset is used to evaluate and rank candidates based on specific criteria.
+## File Details
+- **Filename**: `dataset_4_24.xlsx`
+- **Sheet Name**: `D1`
 
-Questions and Analysis
+## Data Dictionary
+### D1 (Employee Information)
+| Column | Description |
+|---------|------------|
+| Employee name | Name of the employee |
+| Year of experience | Total work experience (in years) |
+| Appraisal 1 | First appraisal score |
+| Appraisal 2 | Second appraisal score |
+| Appraisal 3 | Third appraisal score |
+| Skills | Technical skills (comma-separated) |
+| Key projects | Major projects the employee has worked on |
+| Duration in the current role | Time spent in the current role (in years) |
+| Bench duration | Duration of non-project allocation (in months) |
+| When the candidate will be available | Expected availability date for a new role |
 
-Method 1: By considering equal weights for all the criteria.
-Method 2: By considering the weights given in the column ‘Weight’ in the criteria set by Madhuri.
+## Use Case
+This dataset is useful for:
+- Employee performance evaluation and trend analysis.
+- Resource planning and project allocation.
+- Identifying employees ready for new opportunities based on availability.
 
-The following questions were addressed using this dataset:
+## License
+This dataset is provided for analytical and research purposes. Please cite this repository if used in any reports or projects.
 
-1-Rank of Akanksha using Method 1: This involves calculating a composite score with equal weights for all criteria.
-Answer: Rank of Akanksha using Method 1: 1.
-
-2-Composite score of Praveen using Method 1: Calculate the composite score for Praveen using equal weights.
-Answer: Composite score of Praveen using Method 1: 3.3336.
-
-3-Rank of Nanda using Method 2: This involves using weighted criteria for the composite score.
-Answer: Rank of Nanda using Method 2: 5.
-
-4-Composite score of Sazid using Method 2: Calculate the composite score for Sazid using weighted criteria.
-Answer: Composite score of Sazid using Method 2: 0.5174.
-
-5-Number of persons retaining the same rank in both methods: Determine how many candidates have the same rank in both Method 1 and Method 2.
-Answer: Number of persons with the same rank in both methods: 4.
+## Contact
+For any questions or clarifications, feel free to raise an issue or contribute to the repository.
